@@ -3,7 +3,7 @@ var irc = require("irc");
 var botframework = require("botframework-directlinejs");
 var ws = require("ws");
 var sprintf = require('sprintf-js').sprintf;
-var sleep = require('sleep');
+var sleep = require('thread-sleep');
 
 global.XMLHttpRequest = require("xhr2");
 
@@ -131,7 +131,7 @@ function SendLines(nick, lines)
 		bot.say(nick, lines[i]);		
 		
 		//irc reply throttle
-		sleep.msleep(1000);
+		sleep(1000);
 	}
 
 }
