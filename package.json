@@ -1,0 +1,33 @@
+{
+  "name": "botframework.connector.irc",
+  "version": "1.0.0",
+  "description": "Enables Microsoft Bot Framework interactions over IRC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolboc/botframework.connector.irc.git"
+  },
+  "keywords": [
+    "microsoft",
+    "MSFT",
+    "bot",
+    "botframework",
+    "irc"
+  ],
+  "author": "Paul DeCarlo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toolboc/botframework.connector.irc/issues"
+  },
+  "homepage": "https://github.com/toolboc/botframework.connector.irc#readme",
+  "dependencies": {
+    "botframework-directlinejs": "^0.9.12",
+    "irc": "^0.5.2",
+    "sleep": "^5.1.1",
+    "sprintf-js": "^1.1.1",
+    "xhr2": "^0.1.4"
+  }
+}
