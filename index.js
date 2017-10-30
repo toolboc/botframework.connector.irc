@@ -10,10 +10,10 @@ global.XMLHttpRequest = require("xhr2");
 var lineWidth = 80;
 
 var config = {
-	channels: ["#cougarcs"], //comma separated list of channels
-	server: "irc.freenode.net", //irc server to connect to
-	botName: "Coolbot1101", // NICK for the bot
-    directLineSecret: "YOUR_SECRET"/* put your Direct Line secret here */
+	channels: [process.env.CHANNELS], //comma separated list of channels
+	server: process.env.IRCSERVER, //irc server to connect to
+	botName: process.env.BOTNAME, // NICK for the bot
+	directLineSecret: process.env.DIRECTLINESECRET/* put your Direct Line secret here */
 };
 
 var bot = new irc.Client(config.server, config.botName, {
