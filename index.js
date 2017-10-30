@@ -22,7 +22,7 @@ var bot = new irc.Client(config.server, config.botName, {
 
 var conversations = [];
 
-bot.addListener("message", function(from, to, text, message) {
+bot.addListener("pm", function(from, text, message) {
 
 	for(var i in conversations) {
 			if(conversations[i].user == message.nick )
