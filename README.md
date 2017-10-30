@@ -1,7 +1,11 @@
 # botframework.connector.irc
 Enables Microsoft Bot Framework interactions over IRC
 
+## One-Click Deployment
+
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
+## Demo
 
 ![](https://i.imgur.com/0xQkA8I.png)
 
