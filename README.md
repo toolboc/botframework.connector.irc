@@ -7,8 +7,7 @@ Enables Microsoft Bot Framework interactions over IRC
 
 ## Demo
 
-![](https://i.imgur.com/0xQkA8I.png)
-
+[![Demo](https://i.imgur.com/0xQkA8I.pngg)](https://www.youtube.com/watch?v=MgGe2rQz8tA)
 
 ## Prerequisites
 Requires local installation of [node.js](http://nodejs.org) (tested on v6.11.4)
