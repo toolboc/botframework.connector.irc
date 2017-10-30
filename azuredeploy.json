@@ -138,6 +138,7 @@
               "[resourceId('Microsoft.Web/Sites', parameters('siteName'))]"
             ],
             "properties": {
+                "WEBSITE_NODE_DEFAULT_VERSION" : "6.9.1",
                 "CHANNELS" : "[parameters('channels')]",
                 "IRCSERVER" : "[parameters('ircServer')]",
                 "BOTNAME" : "[parameters('botName')]",
