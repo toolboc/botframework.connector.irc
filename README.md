@@ -1,5 +1,6 @@
 # botframework.connector.irc
-Enables Microsoft Bot Framework interactions over IRC
+Enables Microsoft Bot Framework interactions over IRC.  
+Initially created to faciliate [ordering from Starbucks using a Commodore 128 in C64 Mode](https://motherboard.vice.com/en_us/article/wjgzk4/how-to-order-starbucks-coffee-with-a-commodore-128). 
 
 ## One-Click Deployment
 
